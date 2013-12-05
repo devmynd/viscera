@@ -1,11 +1,3 @@
-//= require_tree ./skin
-//= require ./app
-//= require_tree ./lib
-//= require_tree ./models
-//= require_tree ./collections
-//= require_tree ./views
-//= require_self
-
 _(Viscera).extend({
   initialize: function(app) {
     _.bindAll(this, "installComponent");
